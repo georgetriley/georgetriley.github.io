@@ -1,0 +1,112 @@
+/* Universal styling */
+body {
+  background-color: #4E7F76;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+a {
+  color: #27403B;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8DE5D4;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+/* Common layouts */
+.section {
+  margin: 2rem auto;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #75BFB0;
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+.caption {
+  width: 65%;
+  padding: 0 5%;
+}
+
+.caption h3, .caption a {
+  line-height: 3;
+}
+
+/* Header and menu */
+.name {
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+/* Projects section */
+.projects.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project.detail img {
+  width: 30%;
+}
+
+/* CV section */
+.cv i {
+  margin: 0 auto;
+}
+
+/* Contact section */
+.contact.methods {
+  display: flex;
+  justify-content: space-around;
+}
