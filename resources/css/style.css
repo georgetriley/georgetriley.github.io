@@ -125,3 +125,41 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+/* Project pages styling */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro img {
+  width: 30%;
+}
+
+.specs {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+button {
+  padding: 0.75rem 2.5rem;
+  font-size: 1.5rem;
+  border: 2px solid #27403B;
+  background-color: #27403B;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #8DE5D4;
+  border: 2px solid #8DE5D4;
+}
