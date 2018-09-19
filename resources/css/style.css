@@ -100,8 +100,22 @@ ul {
   width: 30%;
 }
 
+@media only screen and (max-width:425px){
+  .project.detail {
+    flex-direction: column;
+  }
+
+  .project.detail img {
+    display: none;
+  }
+
+  .project.caption {
+    width: 90%;
+  }
+}
+
 /* CV section */
-.cv i {
+#cv-icon {
   margin: 0 auto;
 }
 
@@ -109,4 +123,5 @@ ul {
 .contact.methods {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
