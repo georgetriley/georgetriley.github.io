@@ -138,6 +138,17 @@ header nav ul {
   width: 30%;
 }
 
+@media only screen and (max-width: 425px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro img {
+    width: 70%;
+    padding-bottom: 1rem;
+  }
+}
+
 .specs {
   width: 100%;
   margin-top: 1rem;
@@ -145,8 +156,13 @@ header nav ul {
 
 .project-link {
   display: flex;
-  justify-content: center;
   margin: 1rem auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-link a {
+  padding: 0.75rem 0;
 }
 
 button {
@@ -163,6 +179,10 @@ button:hover {
   color: white;
   background-color: #8DE5D4;
   border: 2px solid #8DE5D4;
+}
+
+.feature h3 {
+  padding-left: 5%;
 }
 
 /* CV page styling */
