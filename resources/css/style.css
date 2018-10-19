@@ -127,6 +127,15 @@ header nav ul {
   width: 100%;
 }
 
+.contact a {
+  color: white;
+  font-weight: normal;
+}
+
+.contact a:hover {
+  color: #8DE5D4;
+}
+
 /* Project pages styling */
 .intro {
   display: flex;
